@@ -7,7 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A706FB25202961980063506B /* cHipJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A706FB23202961980063506B /* cHipJoint.cpp */; };
+		A706FB282029659E0063506B /* cKnee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A706FB262029659E0063506B /* cKnee.cpp */; };
 		A709DD1E2028D69B00F1AAB9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A709DD1D2028D69B00F1AAB9 /* main.cpp */; };
+		A709DD262028D6A700F1AAB9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A709DD252028D6A700F1AAB9 /* OpenGL.framework */; };
+		A709DD282028D6AE00F1AAB9 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A709DD272028D6AE00F1AAB9 /* GLUT.framework */; };
+		A709DD302028D82100F1AAB9 /* cHead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A709DD2E2028D82100F1AAB9 /* cHead.cpp */; };
+		A709DD332028D91C00F1AAB9 /* cNeck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A709DD312028D91C00F1AAB9 /* cNeck.cpp */; };
+		A709DD362028D95600F1AAB9 /* cBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A709DD342028D95600F1AAB9 /* cBody.cpp */; };
+		A709DD392028D9B000F1AAB9 /* cChest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A709DD372028D9B000F1AAB9 /* cChest.cpp */; };
+		A709DD3C2028D9CC00F1AAB9 /* cShoulder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A709DD3A2028D9CC00F1AAB9 /* cShoulder.cpp */; };
+		A709DD3F2028D9FD00F1AAB9 /* cForearm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A709DD3D2028D9FD00F1AAB9 /* cForearm.cpp */; };
+		A709DD422028DA1B00F1AAB9 /* cArm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A709DD402028DA1B00F1AAB9 /* cArm.cpp */; };
+		A709DD452028DA3400F1AAB9 /* cHand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A709DD432028DA3400F1AAB9 /* cHand.cpp */; };
+		A709DD4B2028DB4800F1AAB9 /* cCyborg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A709DD492028DB4800F1AAB9 /* cCyborg.cpp */; };
+		A709DD4E2028ED2F00F1AAB9 /* cHip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A709DD4C2028ED2F00F1AAB9 /* cHip.cpp */; };
+		A709DD512028F9AE00F1AAB9 /* cPart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A709DD4F2028F9AE00F1AAB9 /* cPart.cpp */; };
+		A709DD542029161500F1AAB9 /* cThigh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A709DD522029161500F1AAB9 /* cThigh.cpp */; };
+		A709DD572029163300F1AAB9 /* cLeg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A709DD552029163300F1AAB9 /* cLeg.cpp */; };
+		A709DD5A2029168700F1AAB9 /* cFoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A709DD582029168700F1AAB9 /* cFoot.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +41,42 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A706FB23202961980063506B /* cHipJoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cHipJoint.cpp; sourceTree = "<group>"; };
+		A706FB24202961980063506B /* cHipJoint.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cHipJoint.hpp; sourceTree = "<group>"; };
+		A706FB262029659E0063506B /* cKnee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cKnee.cpp; sourceTree = "<group>"; };
+		A706FB272029659E0063506B /* cKnee.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cKnee.hpp; sourceTree = "<group>"; };
 		A709DD1A2028D69B00F1AAB9 /* Cyborg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cyborg; sourceTree = BUILT_PRODUCTS_DIR; };
 		A709DD1D2028D69B00F1AAB9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A709DD252028D6A700F1AAB9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		A709DD272028D6AE00F1AAB9 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		A709DD2E2028D82100F1AAB9 /* cHead.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cHead.cpp; sourceTree = "<group>"; };
+		A709DD2F2028D82100F1AAB9 /* cHead.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cHead.hpp; sourceTree = "<group>"; };
+		A709DD312028D91C00F1AAB9 /* cNeck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cNeck.cpp; sourceTree = "<group>"; };
+		A709DD322028D91C00F1AAB9 /* cNeck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cNeck.hpp; sourceTree = "<group>"; };
+		A709DD342028D95600F1AAB9 /* cBody.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cBody.cpp; sourceTree = "<group>"; };
+		A709DD352028D95600F1AAB9 /* cBody.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cBody.hpp; sourceTree = "<group>"; };
+		A709DD372028D9B000F1AAB9 /* cChest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cChest.cpp; sourceTree = "<group>"; };
+		A709DD382028D9B000F1AAB9 /* cChest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cChest.hpp; sourceTree = "<group>"; };
+		A709DD3A2028D9CC00F1AAB9 /* cShoulder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cShoulder.cpp; sourceTree = "<group>"; };
+		A709DD3B2028D9CC00F1AAB9 /* cShoulder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cShoulder.hpp; sourceTree = "<group>"; };
+		A709DD3D2028D9FD00F1AAB9 /* cForearm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cForearm.cpp; sourceTree = "<group>"; };
+		A709DD3E2028D9FD00F1AAB9 /* cForearm.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cForearm.hpp; sourceTree = "<group>"; };
+		A709DD402028DA1B00F1AAB9 /* cArm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cArm.cpp; sourceTree = "<group>"; };
+		A709DD412028DA1B00F1AAB9 /* cArm.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cArm.hpp; sourceTree = "<group>"; };
+		A709DD432028DA3400F1AAB9 /* cHand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cHand.cpp; sourceTree = "<group>"; };
+		A709DD442028DA3400F1AAB9 /* cHand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cHand.hpp; sourceTree = "<group>"; };
+		A709DD492028DB4800F1AAB9 /* cCyborg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cCyborg.cpp; sourceTree = "<group>"; };
+		A709DD4A2028DB4800F1AAB9 /* cCyborg.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cCyborg.hpp; sourceTree = "<group>"; };
+		A709DD4C2028ED2F00F1AAB9 /* cHip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cHip.cpp; sourceTree = "<group>"; };
+		A709DD4D2028ED2F00F1AAB9 /* cHip.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cHip.hpp; sourceTree = "<group>"; };
+		A709DD4F2028F9AE00F1AAB9 /* cPart.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cPart.cpp; sourceTree = "<group>"; };
+		A709DD502028F9AE00F1AAB9 /* cPart.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cPart.hpp; sourceTree = "<group>"; };
+		A709DD522029161500F1AAB9 /* cThigh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cThigh.cpp; sourceTree = "<group>"; };
+		A709DD532029161500F1AAB9 /* cThigh.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cThigh.hpp; sourceTree = "<group>"; };
+		A709DD552029163300F1AAB9 /* cLeg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cLeg.cpp; sourceTree = "<group>"; };
+		A709DD562029163300F1AAB9 /* cLeg.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cLeg.hpp; sourceTree = "<group>"; };
+		A709DD582029168700F1AAB9 /* cFoot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cFoot.cpp; sourceTree = "<group>"; };
+		A709DD592029168700F1AAB9 /* cFoot.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cFoot.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A709DD282028D6AE00F1AAB9 /* GLUT.framework in Frameworks */,
+				A709DD262028D6A700F1AAB9 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +97,7 @@
 			children = (
 				A709DD1C2028D69B00F1AAB9 /* Cyborg */,
 				A709DD1B2028D69B00F1AAB9 /* Products */,
+				A709DD242028D6A700F1AAB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +112,66 @@
 		A709DD1C2028D69B00F1AAB9 /* Cyborg */ = {
 			isa = PBXGroup;
 			children = (
-				A709DD1D2028D69B00F1AAB9 /* main.cpp */,
+				A709DD2A2028D7B700F1AAB9 /* header */,
+				A709DD292028D79600F1AAB9 /* src */,
 			);
 			path = Cyborg;
+			sourceTree = "<group>";
+		};
+		A709DD242028D6A700F1AAB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A709DD272028D6AE00F1AAB9 /* GLUT.framework */,
+				A709DD252028D6A700F1AAB9 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A709DD292028D79600F1AAB9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A709DD1D2028D69B00F1AAB9 /* main.cpp */,
+				A709DD492028DB4800F1AAB9 /* cCyborg.cpp */,
+				A709DD342028D95600F1AAB9 /* cBody.cpp */,
+				A709DD372028D9B000F1AAB9 /* cChest.cpp */,
+				A709DD312028D91C00F1AAB9 /* cNeck.cpp */,
+				A709DD2E2028D82100F1AAB9 /* cHead.cpp */,
+				A709DD4C2028ED2F00F1AAB9 /* cHip.cpp */,
+				A709DD3A2028D9CC00F1AAB9 /* cShoulder.cpp */,
+				A709DD3D2028D9FD00F1AAB9 /* cForearm.cpp */,
+				A709DD402028DA1B00F1AAB9 /* cArm.cpp */,
+				A709DD432028DA3400F1AAB9 /* cHand.cpp */,
+				A706FB23202961980063506B /* cHipJoint.cpp */,
+				A709DD522029161500F1AAB9 /* cThigh.cpp */,
+				A706FB262029659E0063506B /* cKnee.cpp */,
+				A709DD552029163300F1AAB9 /* cLeg.cpp */,
+				A709DD582029168700F1AAB9 /* cFoot.cpp */,
+				A709DD4F2028F9AE00F1AAB9 /* cPart.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A709DD2A2028D7B700F1AAB9 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				A709DD4A2028DB4800F1AAB9 /* cCyborg.hpp */,
+				A709DD352028D95600F1AAB9 /* cBody.hpp */,
+				A709DD382028D9B000F1AAB9 /* cChest.hpp */,
+				A709DD322028D91C00F1AAB9 /* cNeck.hpp */,
+				A709DD4D2028ED2F00F1AAB9 /* cHip.hpp */,
+				A709DD3B2028D9CC00F1AAB9 /* cShoulder.hpp */,
+				A709DD2F2028D82100F1AAB9 /* cHead.hpp */,
+				A709DD3E2028D9FD00F1AAB9 /* cForearm.hpp */,
+				A709DD412028DA1B00F1AAB9 /* cArm.hpp */,
+				A709DD442028DA3400F1AAB9 /* cHand.hpp */,
+				A706FB24202961980063506B /* cHipJoint.hpp */,
+				A709DD532029161500F1AAB9 /* cThigh.hpp */,
+				A706FB272029659E0063506B /* cKnee.hpp */,
+				A709DD562029163300F1AAB9 /* cLeg.hpp */,
+				A709DD592029168700F1AAB9 /* cFoot.hpp */,
+				A709DD502028F9AE00F1AAB9 /* cPart.hpp */,
+			);
+			path = header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +232,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				A709DD1E2028D69B00F1AAB9 /* main.cpp in Sources */,
+				A709DD302028D82100F1AAB9 /* cHead.cpp in Sources */,
+				A709DD422028DA1B00F1AAB9 /* cArm.cpp in Sources */,
+				A709DD332028D91C00F1AAB9 /* cNeck.cpp in Sources */,
+				A709DD512028F9AE00F1AAB9 /* cPart.cpp in Sources */,
+				A709DD452028DA3400F1AAB9 /* cHand.cpp in Sources */,
+				A706FB25202961980063506B /* cHipJoint.cpp in Sources */,
+				A709DD572029163300F1AAB9 /* cLeg.cpp in Sources */,
+				A709DD5A2029168700F1AAB9 /* cFoot.cpp in Sources */,
+				A706FB282029659E0063506B /* cKnee.cpp in Sources */,
+				A709DD392028D9B000F1AAB9 /* cChest.cpp in Sources */,
+				A709DD542029161500F1AAB9 /* cThigh.cpp in Sources */,
+				A709DD3F2028D9FD00F1AAB9 /* cForearm.cpp in Sources */,
+				A709DD4B2028DB4800F1AAB9 /* cCyborg.cpp in Sources */,
+				A709DD362028D95600F1AAB9 /* cBody.cpp in Sources */,
+				A709DD4E2028ED2F00F1AAB9 /* cHip.cpp in Sources */,
+				A709DD3C2028D9CC00F1AAB9 /* cShoulder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +362,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BRSAP5SZ3;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -243,6 +372,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BRSAP5SZ3;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
