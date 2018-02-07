@@ -18,7 +18,10 @@ Chest::Chest()
 
 Chest::~Chest()
 {
-    
+    delete chest;
+    delete neck;
+    delete rShoulder;
+    delete lShoulder;
 }
 
 void Chest::draw()

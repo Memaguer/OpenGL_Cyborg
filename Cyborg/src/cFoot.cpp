@@ -16,7 +16,7 @@ Foot::Foot()
 
 Foot::~Foot()
 {
-    
+    delete foot;
 }
 
 void Foot::draw()

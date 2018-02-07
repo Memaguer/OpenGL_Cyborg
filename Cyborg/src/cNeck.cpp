@@ -16,7 +16,8 @@ Neck::Neck()
 
 Neck::~Neck()
 {
-    
+    delete neck;
+    delete head;
 }
 
 void Neck::draw()

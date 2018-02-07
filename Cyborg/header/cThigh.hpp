@@ -25,7 +25,7 @@ public:
     Part * thigh;
     Knee * knee;
     
-    float angle = 0.0;
+    float angle;
     bool flag = true;
     int time = 1;
     

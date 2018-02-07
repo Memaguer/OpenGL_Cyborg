@@ -25,8 +25,9 @@ public:
     Part * knee;
     Leg * leg;
     
-    float angle = 0.0;
+    float angle;
     bool flag = true;
+    bool flagAngle = true;
     int time = 1;
     
     void draw();

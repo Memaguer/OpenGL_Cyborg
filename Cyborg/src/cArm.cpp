@@ -16,7 +16,8 @@ Arm::Arm()
 
 Arm::~Arm()
 {
-    
+    delete arm;
+    delete hand;
 }
 
 void Arm::draw()
@@ -37,5 +38,4 @@ void Arm::draw()
 
 void Arm:: update()
 {
-    
 }

@@ -17,7 +17,8 @@ Shoulder::Shoulder(char _side)
 
 Shoulder::~Shoulder()
 {
-    
+    delete shoulder;
+    delete forearm;
 }
 
 void Shoulder::draw()

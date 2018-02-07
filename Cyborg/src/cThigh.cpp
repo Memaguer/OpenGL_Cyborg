@@ -12,18 +12,21 @@ Thigh::Thigh()
 {
     thigh = new Part(1, 1, 1);
     knee = new Knee();
+    knee -> angle = angle;
 }
 
 Thigh::~Thigh()
 {
-    
+    delete thigh;
+    delete knee;
 }
 
 void Thigh::draw()
 {
     // ############## THIGH ##############
-    glTranslatef(0, -2.1, 0);
-    glScalef(1.05, 5.1, 1.05);
+    glScalef(1/0.5, 1/0.5, 1/0.5); // cube (1, 1, 1)
+    glTranslatef(0, -0.7, 0);
+    glScalef(0.5, 1.0, 0.5);
     thigh -> draw();
     
     // ####### KNEE #######

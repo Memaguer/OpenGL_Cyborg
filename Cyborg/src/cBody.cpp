@@ -17,7 +17,9 @@ Body::Body()
 
 Body::~Body()
 {
-    
+    delete body;
+    delete chest;
+    delete hip;
 }
 
 void Body::draw()

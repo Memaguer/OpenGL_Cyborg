@@ -16,23 +16,27 @@ Leg::Leg()
 
 Leg::~Leg()
 {
-    
+    delete leg;
+    delete foot;
 }
 
 void Leg::draw()
 {
     // ############## LEG ##############
-    glRotatef(angle, 1, 0, 0);
+    glScalef(1/0.5, 1/0.5, 1/0.5); // cube (1, 1, 1)
+    //glRotatef(angle, 1, 0, 0);
+    glTranslated(0, -0.5, 0);
+    glScalef(0.5, 1, 0.5);
     //glTranslatef(0, -1.0, 0);  //v1.0
     //glScalef(1.05, 1.1, 1.05); //v1.0
-    glTranslatef(0, -2.5, 0);
-    glScalef(1.1, 3.0, 1.1);
+    //glTranslatef(0, -2.5, 0); //v2.0
+    //glScalef(1.1, 3.0, 1.1);
     leg -> draw();
     
     // ####### FOOT #######
     glPushMatrix();
     {
-        foot -> draw();
+        //foot -> draw();
     }
     glPopMatrix();
 }

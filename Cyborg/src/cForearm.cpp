@@ -16,7 +16,8 @@ Forearm::Forearm()
 
 Forearm::~Forearm()
 {
-    
+    delete forearm;
+    delete arm;
 }
 
 void Forearm::draw()

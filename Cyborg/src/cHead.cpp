@@ -15,7 +15,7 @@ Head::Head()
 
 Head::~Head()
 {
-    
+    delete head;
 }
 
 void Head::draw()

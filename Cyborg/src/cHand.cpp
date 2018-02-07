@@ -15,7 +15,7 @@ Hand::Hand()
 
 Hand::~Hand()
 {
-    
+    delete hand;
 }
 
 void Hand::draw()

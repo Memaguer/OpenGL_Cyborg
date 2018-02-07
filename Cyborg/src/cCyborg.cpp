@@ -15,7 +15,7 @@ Cyborg::Cyborg()
 
 Cyborg::~Cyborg()
 {
-    
+    delete body;
 }
 
 void Cyborg::draw()

@@ -10,21 +10,26 @@
 
 Knee::Knee()
 {
-    knee = new Part(0, 1, 0);
+    knee = new Part(0.176, 0.368, 0.796);
     leg = new Leg();
 }
 
 Knee::~Knee()
 {
-    
+    delete knee;
+    delete leg;
 }
 
 void Knee::draw()
 {
     // ############## KNEE ##############
-    //glRotatef(angle, 1, 0, 0);
+    glScalef(1/0.5, 1/1.0, 1/0.5);  // cube (1, 1, 1)
     glTranslatef(0, -0.5, 0);
-    glScalef(0.8, 0.2, 0.8);
+    glRotatef(angle, 1, 0, 0);
+    glScalef(0.5, 0.5, 0.5);
+    //glTranslatef(0, -0.5, 0);
+    //glScalef(0.8, 0.2, 0.8);
+    //glScalef(2, 0.5, 2);
     knee -> draw();
     
     // ####### LEG #######
@@ -37,23 +42,20 @@ void Knee::draw()
 
 void Knee:: update()
 {
-    if (time <= 40){
-        time += 1;
+    //angle +=1;
+    if(flag){
+        angle += 2.0;
+        if(angle >= 40.0){
+            flag = false;
+        }
     }
     else{
-        if(flag){
-            angle += 1;
-            if(angle >= 20.0){
-                flag = false;
-            }
-        }
-        else{
-            angle -= 0.5;
-            if(angle <= 0){
-                flag = true;
-                time = 1;
-            }
+        angle -= 2.0;
+        if(angle <= 0.0){
+            flag = true;
+            time = 1;
         }
     }
+    printf("angle: %f\n", angle);
     leg -> update();
 }
